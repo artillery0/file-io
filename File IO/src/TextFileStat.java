@@ -265,6 +265,7 @@ public class TextFileStat
         return sum;
     }
 
+    @SuppressWarnings("unused")
     private static void printNumberInfo(int[] arr)
     {
         for (int i = 0; i < arr.length; i++)

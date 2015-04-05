@@ -1,7 +1,7 @@
 import java.io.File;
 
 
-public class App
+public class FileList
 {
     public static void main(String[] args)
     {
@@ -9,7 +9,7 @@ public class App
         String[] fileList = file.list();
         for (String name : fileList)
         {
-            System.out.print(name + " ");
+            System.out.println(name + " ");
         }
         System.out.println();
         // dsfdsfdswerewqrweqr
